@@ -1,11 +1,40 @@
-<div align="center">
+# مائدة النور (Ma'idat al-Nur)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+برنامج رمضاني بروحية أهل البيت عليهم السلام، يقدم محتوى روحي وأخلاقي ومعرفي بأسلوب عصري وسينمائي.
 
-  <h1>Built with AI Studio</h2>
+## المميزات
+- محتوى يومي متجدد باستخدام الذكاء الاصطناعي (Gemini API).
+- تصميم سينمائي يعتمد على تدرجات الألوان الملكية (Deep Teal & Copper).
+- فقرات متنوعة: محراب الليلة، سيرة وموقف، فقه الحياة، زاد الصائم، وتراث المخطوطات.
+- واجهة مستخدم تفاعلية وسلسة.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## المتطلبات
+- Node.js (إصدار 18 أو أحدث)
+- مفتاح API لـ Google Gemini
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## التشغيل المحلي
 
-</div>
+1. قم بتحميل المشروع أو عمل `git clone`.
+2. قم بتثبيت المكتبات:
+   ```bash
+   npm install
+   ```
+3. قم بإنشاء ملف `.env` بناءً على `.env.example` وأضف مفتاح الـ API الخاص بك:
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+4. ابدأ تشغيل خادم التطوير:
+   ```bash
+   npm run dev
+   ```
+
+## التقنيات المستخدمة
+- React 19
+- Vite
+- Tailwind CSS 4
+- Framer Motion (Motion)
+- Lucide React Icons
+- Google Generative AI SDK
+
+## الترخيص
+Apache-2.0
